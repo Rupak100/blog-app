@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "your-build-command",
-  "test": "your-test-command"
+    "build": "webpack --config webpack.config.js",
+  "test": "mocha test/**/*.js"
   },
   "author": "Rupak SArkar",
   "license": "ISC",
